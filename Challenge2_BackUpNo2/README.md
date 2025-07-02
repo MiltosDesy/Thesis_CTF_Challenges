@@ -21,9 +21,11 @@ ADB (Android Debug Bridge) is a command-line tool that allows a computer to inte
 
 This is exactly how the challenge file was created. The given file is in the .ab format (Android Backup), which must be converted into a readable format before analysis.
 
-Essentially, an .ab file is a TAR archive (a type of file that bundles one or more files together, similar to a .zip – see: What is a TAR file) that has been compressed using Java.
+Essentially, an .ab file is a TAR archive (a type of file that bundles one or more files together, similar to a .zip – see: [What is a TAR file](https://www.lifewire.com/tar-file-2622386)
+) that has been compressed using Java.
 
-After some research on how to extract data from an Android backup file (see: Android StackExchange – Extracting .ab files), I discovered a method that relies on internal Java classes available on Android devices, particularly BackupManagerService.java, and executed the following command:
+After some research on how to extract data from an Android backup file (see: [Android StackExchange – Extracting .ab files](https://android.stackexchange.com/questions/28481/how-doyou-extract-an-apps-data-from-a-full-backup-made-through-adbbackup)
+), I discovered a method that relies on internal Java classes available on Android devices, particularly BackupManagerService.java, and executed the following command:
 
 
 2. Convert it to `.tar` using:
