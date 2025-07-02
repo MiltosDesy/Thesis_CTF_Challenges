@@ -17,6 +17,15 @@ This challenge simulates a scenario where an Android user has created a device b
 1. The user is given a `.ab` file (Android backup).
 ![CTF photo](https://github.com/user-attachments/assets/b8590523-55d2-4f7f-87aa-188e0f5d30fb)
 
+ADB (Android Debug Bridge) is a command-line tool that allows a computer to interact with and control an Android device. It can install or modify apps, as well as execute commands such as creating backups.
+
+This is exactly how the challenge file was created. The given file is in the .ab format (Android Backup), which must be converted into a readable format before analysis.
+
+Essentially, an .ab file is a TAR archive (a type of file that bundles one or more files together, similar to a .zip – see: What is a TAR file) that has been compressed using Java.
+
+After some research on how to extract data from an Android backup file (see: Android StackExchange – Extracting .ab files), I discovered a method that relies on internal Java classes available on Android devices, particularly BackupManagerService.java, and executed the following command:
+
+
 2. Convert it to `.tar` using:
    ```bash
    java -jar abp.jar unpack backup.ab backup.tar
