@@ -29,7 +29,7 @@ In this introductory challenge, the user is provided with an Android APK file. T
   
    ![316748838_693235655479461_1235365210818659807_n](https://github.com/user-attachments/assets/ebfe1c20-05ae-4caf-9a18-8ece2aad6506)
 
-5.Use grep to search recursively for the flag: grep -R "CTF" First_Challenge_Mobile/
+5.Use grep to search recursively for the flag: 
 ![flag](https://github.com/user-attachments/assets/ee36633a-3c71-4a8f-943a-c89b600502c3)
 
 6. The flag is located inside res/value/strings.xml as: CTFLIB{wellthatwaseasy}
