@@ -26,7 +26,7 @@ In this introductory challenge, the user is provided with an Android APK file. T
 ![FileSystemAS](https://github.com/user-attachments/assets/8214a989-849c-4af6-b432-1a0417596c36)
 
 4. When no useful information is found statically, decompile the APK using `apktool`:
-   apktool d First_Challenge_Mobile.apk
+  
    ![316748838_693235655479461_1235365210818659807_n](https://github.com/user-attachments/assets/ebfe1c20-05ae-4caf-9a18-8ece2aad6506)
 
 5.Use grep to search recursively for the flag: grep -R "CTF" First_Challenge_Mobile/
