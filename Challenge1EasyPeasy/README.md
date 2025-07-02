@@ -22,7 +22,7 @@ In this introductory challenge, the user is provided with an Android APK file. T
 
 ![manifest](https://github.com/user-attachments/assets/c5b7a20a-cce7-49b8-a73e-38bbb5580e81)
 
-3. Identify Smali code in `MainActivity.smali` and other Smali files.
+3. Identify Smali code in the app.
 ![FileSystemAS](https://github.com/user-attachments/assets/8214a989-849c-4af6-b432-1a0417596c36)
 
 4. When no useful information is found statically, decompile the APK using `apktool`:
