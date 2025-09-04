@@ -22,7 +22,8 @@ In this challenge, the user is given an Android APK file. The application displa
 
 I can see that the app has an input field for the user to enter the flag.There is also a colosseum photo, so the app indicates the ancient rome era, but it doesnt make sense, for now.
 
-2. Next step is to decompile the APK with `apktool`: and then 
+2. Next step is to decompile the APK with `apktool`:  
    ```bash
    apktool d HailCeasar.apk
+and then search for the flag using grep 
 
