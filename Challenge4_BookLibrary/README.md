@@ -5,7 +5,7 @@
 In this challenge i am given with an apk that has an add button, fields for input and i must search for the flag.
 <img width="425" height="836" alt="homepageOfApp" src="https://github.com/user-attachments/assets/7aa6c1b9-e776-4569-946d-41a90e18b856" />
 
-# Exploitation 
+## Exploitation 
 
 1. By the looks of the home page, i can't seem to identify any clue that might give me some information about the app.Only that it has something to do with a library.If i press the add button:
    
