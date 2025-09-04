@@ -17,7 +17,7 @@ In this challenge, you are given an Android APK file. The application displays a
 
 ---
 
-## Steps to Solve
+## Exploitation
 
 1. **Exploring the Home Screen**  
    The home page doesn't provide obvious clues, except that it relates to a library. Pressing the *Add* button leads to a page where books can be added:
