@@ -37,12 +37,14 @@ At line 140 i can see that a table called `my_library` is created for an `SQLite
 <img width="1457" height="746" alt="ταβλε" src="https://github.com/user-attachments/assets/b184acf0-0203-4cb0-bcb5-985754e92b28" />
 
 7. By observing the database, i see that it has 3 tables:
+   
    - `android_metadata`: A table that is automatically created when a table is initialized and contains basic meta-data about the database.It generally contains a column, `locale` which typically stores the language and the country in which it was created.
-     <img width="198" height="112" alt="λοψαλε" src="https://github.com/user-attachments/assets/8a8b5fa4-5f19-4f3e-824d-b241ec6f4542" />
+     
+        <img width="198" height="112" alt="λοψαλε" src="https://github.com/user-attachments/assets/8a8b5fa4-5f19-4f3e-824d-b241ec6f4542" />
 
    - `sqllite_sequence`:A table used internally by SQLite to track table keys that have the AUTOINCREMENT value, meaning fields in tables where their values automatically increase as they grow and are unique for each column (e.g., an identifying ID code for each book). It contains 2 fields: 'name' and 'seq'. The first contains the name of the table that uses such keys, and the second contains the last sequence number used for the automatic increment in the corresponding table.
      
-    <img width="192" height="113" alt="σε;θενψε" src="https://github.com/user-attachments/assets/c50006ee-1fa7-46ca-8392-5772233a33cc" />
+       <img width="192" height="113" alt="σε;θενψε" src="https://github.com/user-attachments/assets/c50006ee-1fa7-46ca-8392-5772233a33cc" />
 
   - `my_library`: Finally, i must search the last table and its contents.I can see that it has the books that the user adds and the entry with id-2 is the flag.
 
