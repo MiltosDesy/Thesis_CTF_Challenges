@@ -48,8 +48,11 @@ After some research on how to extract data from an Android backup file (see: [An
 What You Learn
 
 -How Android backups work and are stored
+
 -File format transformation and archive inspection
+
 -Introduction to basic steganography via text injection
+
 -Using Java tools to unpack .ab format
 
 Notes & Reflections
