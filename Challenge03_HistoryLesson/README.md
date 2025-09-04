@@ -24,6 +24,5 @@ I can see that the app has an input field for the user to enter the flag.There i
 
 2. Next step is to decompile the APK with `apktool`:  
    ```bash
-   apktool d HailCeasar.apk
-and then search for the flag using grep 
+   apktool d HailCeasar.apk and then search for the flag using grep 
 
