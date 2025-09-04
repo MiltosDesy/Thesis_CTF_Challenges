@@ -49,7 +49,7 @@ The app title Hail Caesar and the Colosseum image hint at Caesar Cipher encrypti
 
 6. The decoded message reveals the correct flag: `CTFLIB{HistoryAndCryptoIsFun}`
 
-##What You Learn
+## What You Learn
 
 Reverse engineering APK files with APKTool
 
@@ -60,6 +60,6 @@ Recognizing classical cryptographic schemes from contextual hints
 Using brute force techniques to decode Caesar Cipher
 
 
-##Notes & Reflections
+## Notes & Reflections
 
 The challenge was designed to guide the user into identifying Caesar Cipher through contextual clues (app title and imagery).The main difficulty during implementation was embedding the encoded flag securely within the app logic.
