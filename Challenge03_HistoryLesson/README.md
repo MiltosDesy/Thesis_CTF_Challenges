@@ -25,7 +25,7 @@ I can see that the app has an input field for the user to enter the flag.There i
 2. Next step is to decompile the APK with `apktool`:  
    ```bash
    apktool d HailCeasar.apk
-and then search for the flag using grep 
+and then search for the flag using `grep` 
 
 <img width="1121" height="172" alt="grep Flag" src="https://github.com/user-attachments/assets/fce0ff0b-0c12-458d-8352-86cd683ee016" />
 
@@ -33,12 +33,12 @@ and then search for the flag using grep
 
 <img width="1001" height="407" alt="Screenshot_3" src="https://github.com/user-attachments/assets/13112083-c7d2-47b4-9982-888eec50a1b8" />
 
-4. Here is the file system after the decompilation of the apk.Next step is to check the MainActivity.smali file (found at:  `smali_classes3/com/example/hailceasar`) 
+4. Here is the file system after the decompilation of the apk.Next step is to check the `MainActivity.smali` file (found at:  `smali_classes3/com/example/hailceasar`) 
 
 
 <img width="856" height="870" alt="smaliMain" src="https://github.com/user-attachments/assets/9fd8ef27-1fba-415d-8452-540091910763" />
 
-Observing the file, i can see a string variable with a familiar format: JAMSPI{OpzavyfHukJyfwavPzMbu}.The format resembles a CTF flag (CTFLIB{...}), but it is clearly encoded.
+Observing the file, i can see a string variable with a familiar format: `JAMSPI{OpzavyfHukJyfwavPzMbu}`.The format resembles a `CTF flag (CTFLIB{...})`, but it is clearly encoded.
 The app title Hail Caesar and the Colosseum image hint at Caesar Cipher encryption.
 
 5. Using an online Caesar Cipher decoder with brute force attack (dcode.fr/caesar-cipher
@@ -47,7 +47,7 @@ The app title Hail Caesar and the Colosseum image hint at Caesar Cipher encrypti
 
 <img width="1183" height="580" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2cb7c598-6e20-4f1f-a092-fd3fc2920f47" />
 
-6. The decoded message reveals the correct flag: CTFLIB{HistoryAndCryptoIsFun}
+6. The decoded message reveals the correct flag: `CTFLIB{HistoryAndCryptoIsFun}`
 
 What You Learn
 
