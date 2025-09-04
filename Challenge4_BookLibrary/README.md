@@ -46,8 +46,8 @@ At line 140 i can see that a table called `my_library` is created for an `SQLite
      
        <img width="192" height="113" alt="σε;θενψε" src="https://github.com/user-attachments/assets/c50006ee-1fa7-46ca-8392-5772233a33cc" />
 
-  - `my_library`: Finally, i must search the last table and its contents.I can see that it has the books that the user adds and the entry with id-2 is the flag.
+     - `my_library`: Finally, i must search the last table and its contents.I can see that it has the books that the user adds and the entry with id-2 is the flag.
 
-<img width="424" height="190" alt="φλαγ" src="https://github.com/user-attachments/assets/7fd98df9-52bf-4c3c-9231-b804f4a1168b" />
+   <img width="424" height="190" alt="φλαγ" src="https://github.com/user-attachments/assets/7fd98df9-52bf-4c3c-9231-                 b804f4a1168b" />
 
     
