@@ -74,7 +74,7 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 8. The decryption works, and I successfully retrieve the flag:
 
    ```txt
-   CTFlearn{AESisNotSoHidden}
+   CTFLIB{AESEncryptionIsFun!} 
    ```
 
 ---
