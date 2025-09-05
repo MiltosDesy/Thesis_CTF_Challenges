@@ -58,6 +58,6 @@ This challenge highlights how sensitive information can be hidden inside app dat
 
 ---
 
-## 🏁 Flag
+## Flag
 
 CTFLIB{ADatabaseInsideAPK?}
