@@ -1,6 +1,6 @@
 # Book Library
 
-## 🧩 Challenge Description
+##  Challenge Description
 
 In this challenge, the user is given an APK with an "Add" button and input fields. The goal is to investigate the app and extract the hidden flag.
 
@@ -8,7 +8,7 @@ In this challenge, the user is given an APK with an "Add" button and input field
 
 ---
 
-## 🚀 Exploitation
+## Exploitation
 
 1. By the looks of the home page, no direct clue is visible. The app seems to represent a library. Pressing the "Add" button:
 
@@ -43,7 +43,7 @@ In this challenge, the user is given an APK with an "Add" button and input field
 
 ---
 
-## 🧠 What You Learn
+## What You Learn
 
 - How Android apps can use embedded SQLite databases.
 - Locating and inspecting databases in the `assets` folder of an APK.
@@ -52,7 +52,7 @@ In this challenge, the user is given an APK with an "Add" button and input field
 
 ---
 
-## ⚠️ Notes & Reflections
+## Notes & Reflections
 
 This challenge highlights how sensitive information can be hidden inside app databases. The tricky part during development was embedding the pre-populated database into the APK so that it would be accessible while keeping the flag non-obvious to the solver.
 
@@ -60,3 +60,4 @@ This challenge highlights how sensitive information can be hidden inside app dat
 
 ## 🏁 Flag
 
+CTFLIB{BooksAndFlags}
