@@ -32,6 +32,9 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 4. In the Decompiled code, I open the `MainActivity.java` file.  
    At the top, I see important imports:
 
+   <img width="1919" height="1031" alt="JADXMainScreen" src="https://github.com/user-attachments/assets/eb852ecf-8b68-4f6e-a972-4935389bb27a" />
+
+
    - `android.util.Base64`: provides Base64 encoding/decoding.  
    - `javax.crypto.Cipher`: provides encryption/decryption functions.  
    - `javax.crypto.spec.SecretKeySpec`: creates an encryption key from a byte array.  
@@ -51,7 +54,7 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 
    I also observe that the user input is compared against the decrypted version of `EF` through a `checking()` method.
 
-5. Diving into the `checking()` method, the logic becomes clear:
+6. Diving into the `checking()` method, the logic becomes clear:
 
    <img src="https://github.com/user-attachments/assets/cf3dd3ef-3ee8-4a51-ade0-edc520ca14a7" alt="Checking method" style="max-width:70%; height:auto;" />
 
@@ -63,11 +66,11 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 
    This reveals that the APK already stores both the **key** and the **encrypted flag**, so replicating the same decryption process will directly yield the flag.
 
-6. I use the tool [AnyCrypt](https://anycript.com/) to decrypt the text with AES using the key `HDK`:
+7. I use the tool [AnyCrypt](https://anycript.com/) to decrypt the text with AES using the key `HDK`:
 
    <img src="https://github.com/user-attachments/assets/622bdff4-7fbf-418f-a20a-bed588c27d86" alt="Anycrypt Decryption" style="max-width:70%; height:auto;" />
 
-7. The decryption works, and I successfully retrieve the flag:
+8. The decryption works, and I successfully retrieve the flag:
 
    ```txt
    CTFlearn{AESisNotSoHidden}
