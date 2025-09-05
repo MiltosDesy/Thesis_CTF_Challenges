@@ -50,8 +50,8 @@ In this challenge, the user is given an APK that hides the flag using **AES encr
 
    6. Diving deeper into the `checking()` method, I uncover the logic behind the validation process:
 
-            
-         <img width="753" height="195" alt="τσεκινγκ" src="https://github.com/user-attachments/assets/23637a28-57a9-4586-               be55-79b60e40d9ea" />
+
+      <img width="753" height="195" alt="τσεκινγκ" src="https://github.com/user-attachments/assets/5d5b31ce-35e8-4a51-ade0-edc520ca14a7" />
 
 
       - A new `SecretKeySpec` object is instantiated using the `HDK` string as the key and the AES algorithm (`ALGORITHM`)          as the encryption standard.
