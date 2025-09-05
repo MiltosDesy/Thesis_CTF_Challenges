@@ -56,7 +56,8 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 
 6. Diving into the `checking()` method, the logic becomes clear:
 
-   <img src="https://github.com/user-attachments/assets/cf3dd3ef-3ee8-4a51-ade0-edc520ca14a7" alt="Checking method" style="max-width:70%; height:auto;" />
+   
+<img width="753" height="195" alt="τσεκινγκ" src="https://github.com/user-attachments/assets/a9ae8fcf-6fe4-491b-b5f2-843c8c561aa1" />
 
    - A new `SecretKeySpec` object is created using the string `HDK` as the key.  
    - A `Cipher` object is initialized in `DECRYPT_MODE`.  
