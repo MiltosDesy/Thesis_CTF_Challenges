@@ -45,7 +45,7 @@ After some research on how to extract data from an Android backup file (see: [An
 6. Find the flag
 
    
-What You Learn
+## What You Learn
 
 -How Android backups work and are stored
 
@@ -55,7 +55,7 @@ What You Learn
 
 -Using Java tools to unpack .ab format
 
-Notes & Reflections
+## Notes & Reflections
 
 The main difficulty in creating this challenge was ensuring the correct generation and preservation of the backup file with the desired content structure.Additionally, properly injecting the image into the correct shared directory and embedding the flag proved challenging.
 
