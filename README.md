@@ -35,11 +35,11 @@ Each challenge folder includes:
 | Challenge ID | Name                  | Main Concept                      |
 |--------------|-----------------------|-----------------------------------|
 | 01           | [Easy Peasy](Challenge1EasyPeasy/README.md)            | APK reverse / static flag search  |
-| 02           | [Backup No2](02_backup-no2/README.md)            | adb + image steganography         |
-| 03           | [History Lesson](03_history-lesson/README.md)    | Caesar cipher decoding            |
-| 04           | [Book Library](04_book-library/README.md)        | SQLite analysis inside APK        |
-| 05           | [Try Me](05_try-me/README.md)                    | AES-encrypted flag with key reuse |
-| 06           | [Dirty COW Simulation](06_dirty-cow-simulation/README.md) | Linux memory manipulation (PoC)   |
+| 02           | [Backup No2](Challenge2_BackUpNo2/README.md)            | adb + image steganography         |
+| 03           | [History Lesson](Challenge3_HistoryLesson/README.md)    | Caesar cipher decoding            |
+| 04           | [Book Library](Challenge4_BookLibrary/README.md)        | SQLite analysis inside APK        |
+| 05           | [Try Me](Challenge5_TryMe/README.md)                    | AES-encrypted flag with key reuse |
+| 06           | [Dirty COW Simulation](Challenge6_DirtyCOWSimulation/README.md) | Linux memory manipulation (PoC)   |
 
 ## Tools Used
 
