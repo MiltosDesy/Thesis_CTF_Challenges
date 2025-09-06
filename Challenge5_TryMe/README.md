@@ -88,6 +88,14 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 
 ---
 
-## Conclusion
+## Notes & Reflections
 
-This challenge demonstrates how **hardcoded keys and encrypted strings in an APK** can be easily exposed by decompiling the app. Even though AES is a strong encryption algorithm, if the key and ciphertext are shipped together inside the code, the encryption provides no real security.
+This challenge highlights the importance of analyzing how encryption is implemented inside an application, rather than assuming it provides security by default.  
+
+- You learn how to identify **hardcoded keys and ciphertexts** inside decompiled APKs.  
+- Even strong algorithms like **AES** are ineffective if both the key and the encrypted data are stored together.  
+- Tools like **JADX** make it much easier to understand the logic of an application compared to smali code.  
+- Hands-on use of external cryptography tools (e.g., AnyCrypt) reinforces how theoretical concepts translate into practice.  
+
+
+
