@@ -16,7 +16,7 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 - **JADX**: To convert smali code back to more readable Java classes.  
 - **Reverse engineering**: Inspecting `MainActivity.java` for encryption logic.  
 - **Cryptography Tools** (e.g., AnyCrypt): To replicate AES decryption with the discovered key and ciphertext.  
-- **Base64 Decoding**: To handle encoded ciphertext before decryption.
+
   
 ## Exploitation
 
