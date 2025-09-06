@@ -34,12 +34,12 @@ Each challenge folder includes:
 
 | Challenge ID | Name                  | Main Concept                      |
 |--------------|-----------------------|-----------------------------------|
-| 01           | Easy Peasy            | APK reverse / static flag search  |
-| 02           | Backup No2            | adb + image steganography         |
-| 03           | History Lesson        | Caesar cipher decoding            |
-| 04           | Book Library          | SQLite analysis inside APK        |
-| 05           | Try Me                | AES-encrypted flag with key reuse |
-| 06           | Dirty COW Simulation  | Linux memory manipulation (PoC)   |
+| 01           | [Easy Peasy](01_easy-peasy/README.md)            | APK reverse / static flag search  |
+| 02           | [Backup No2](02_backup-no2/README.md)            | adb + image steganography         |
+| 03           | [History Lesson](03_history-lesson/README.md)    | Caesar cipher decoding            |
+| 04           | [Book Library](04_book-library/README.md)        | SQLite analysis inside APK        |
+| 05           | [Try Me](05_try-me/README.md)                    | AES-encrypted flag with key reuse |
+| 06           | [Dirty COW Simulation](06_dirty-cow-simulation/README.md) | Linux memory manipulation (PoC)   |
 
 ## Tools Used
 
@@ -49,6 +49,3 @@ Each challenge folder includes:
 - **Android Studio**
 - **adb shell**
 - **Linux terminal (Kali, WSL)**
-
-
-
