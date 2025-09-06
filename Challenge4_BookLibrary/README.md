@@ -8,6 +8,14 @@ In this challenge, the user is given an APK with an "Add" button and input field
 
 ---
 
+## Tools and Techniques Used
+
+- **apktool**: For decompiling the APK and inspecting its structure.  
+- **grep**: To search through decompiled files for possible flag strings.  
+- **DB Browser for SQLite**: To open and analyze the SQLite database inside the `assets` folder.  
+- **Static Analysis**: Examining `.smali` files (`MyDatabaseHelper.smali`) to understand database creation and usage.  
+- **APK Structure Inspection**: Checking the `assets` folder for bundled files like databases.  
+
 ## Exploitation
 
 1. By the looks of the home page, no direct clue is visible. The app seems to represent a library. Pressing the "Add" button:
