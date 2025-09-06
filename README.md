@@ -34,7 +34,7 @@ Each challenge folder includes:
 
 | Challenge ID | Name                  | Main Concept                      |
 |--------------|-----------------------|-----------------------------------|
-| 01           | [Easy Peasy](01_easy-peasy/README.md)            | APK reverse / static flag search  |
+| 01           | [Easy Peasy](Challenge1_EasyPeasy/README.md)            | APK reverse / static flag search  |
 | 02           | [Backup No2](02_backup-no2/README.md)            | adb + image steganography         |
 | 03           | [History Lesson](03_history-lesson/README.md)    | Caesar cipher decoding            |
 | 04           | [Book Library](04_book-library/README.md)        | SQLite analysis inside APK        |
