@@ -9,6 +9,15 @@ The challenge is named *Try Me* because the app simply invites the user to “tr
 
 ---
 
+## Tools and Techniques Used
+
+- **apktool**: To decompile the APK into smali code and resources.  
+- **grep**: To search for keywords like “flag” in decompiled files.  
+- **JADX**: To convert smali code back to more readable Java classes.  
+- **Reverse engineering**: Inspecting `MainActivity.java` for encryption logic.  
+- **Cryptography Tools** (e.g., AnyCrypt): To replicate AES decryption with the discovered key and ciphertext.  
+- **Base64 Decoding**: To handle encoded ciphertext before decryption.
+  
 ## Exploitation
 
 1. Run the APK in the emulator.  
