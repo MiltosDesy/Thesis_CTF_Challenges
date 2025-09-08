@@ -9,7 +9,7 @@ In this challenge, the goal was to simulate an Android device using Docker and a
 
 1. **Environment Setup**
    - Traditional Android emulators (BlueStacks, Android Studio Emulator, Genymotion) were evaluated but not suitable for creating a portable CTF challenge.
-   - Instead, a **Docker-based Android image** was built using a custom `Dockerfile`, provided to me by the University of Piaeus Digital Systems Laboratory. The image defined an Android emulator with API level 27 and x86_64 architecture.
+   - Instead, a **Docker-based Android image** was built using a custom `Dockerfile`, provided to me by the University of Piraeus Digital Systems Laboratory. The image defined an Android emulator with API level 27 and x86_64 architecture.
      <img width="694" height="453" alt="DockerFile1-25" src="https://github.com/user-attachments/assets/56047731-2f9c-4acf-b1b4-c76a62a0970a" />
 
    - After building with `docker build -t android_image .`, the container was run and accessed with:
