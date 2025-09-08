@@ -12,7 +12,7 @@ In this introductory challenge, the user is provided with an Android APK file. T
 - Linux terminal (Kali) with `grep`
 - Understanding of Android APK file structure
 
-## Steps to Solve
+## Exploitation
 
 1. Load the APK in Android Studio using `Profile or Debug APK`.
 ![ASwithTheAPK](https://github.com/user-attachments/assets/f4da7755-aeaa-431f-a138-8ce1c266692e)
