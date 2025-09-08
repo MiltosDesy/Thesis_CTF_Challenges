@@ -12,7 +12,7 @@ This challenge simulates a scenario where an Android user has created a device b
 - Basic steganography (text hidden in image)
 - Text editor for binary analysis
 
-## Steps to Solve
+## Exploitation
 
 1. The user is given a `.ab` file (Android backup).
 ![CTF photo](https://github.com/user-attachments/assets/b8590523-55d2-4f7f-87aa-188e0f5d30fb)
