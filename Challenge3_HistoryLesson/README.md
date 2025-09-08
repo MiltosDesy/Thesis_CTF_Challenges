@@ -12,7 +12,7 @@ In this challenge, the user is given an Android APK file. The application displa
 - Caesar Cipher (classical cryptography)
 - Online Caesar Cipher brute force tool ([dcode.fr](https://www.dcode.fr/caesar-cipher))
 
-## Steps to Solve
+## Exploitation
 
 1. Install and run the APK in the Android Emulator.  
    - The app displays a text field for flag input and returns *Wrong* on incorrect submissions.
